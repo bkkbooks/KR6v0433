@@ -1,0 +1,862 @@
+canonical_identifier: bkk:krp/KR6v0433/v1
+canonical_location: https://kanripo.org/bkk/KR6v0433/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 八宗綱要鈔
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B32/B32n0171.xml
+    old_id: B32n0171
+  edition:
+    short: bkk
+editions:
+- short: 補編
+  label: 補編
+  source_xml_id: wit.orig
+- short: B
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0433_000.yaml, hash: 'sha256:bfa633cef6b2bfafc7c2bee2f654e6e8dd5ec34fa2ebfc9b92f86aad0cc42bd7'}
+  - {seq: 1, filename: KR6v0433_001.yaml, hash: 'sha256:d1dac7b895e20b508b1b2c82cc722b5f81877f60306e16504c32f386adf1c91f'}
+  - {seq: 2, filename: KR6v0433_002.yaml, hash: 'sha256:84ce0f88f5b28491949916be85cd31fc71e67870289e3d3eba43b3f31d899fb0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0433_000.markers.yaml, hash: 'sha256:4aebdb69fe439a5c18491989c75c332c159e83f88b95a8bebbfe9fd18083e2f8'}
+  - {seq: 1, role: markers, filename: assets/KR6v0433_001.markers.yaml, hash: 'sha256:9f905a5acded167e058fd0c49bf29c997c15875b638bbe825cfd83064b76d7b4'}
+  - {seq: 2, role: markers, filename: assets/KR6v0433_002.markers.yaml, hash: 'sha256:6b6e7ba949ed34c8aaddd49f2c2412681c0d68efff860a9f26602710c7a083f2'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6v0433_B_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 凡例
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6v0433_B_000-mulu-2
+    span:
+    - front
+    - 261
+    - 261
+  label: 原書目次
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-juan-start
+    span:
+    - body
+    - 0
+    - 9706
+  label: 講本八宗綱要鈔上
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-1
+    span:
+    - body
+    - 5
+    - 5
+  label: 序論
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-2
+    span:
+    - body
+    - 7
+    - 7
+  label: 第一章　總說
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-3
+    span:
+    - body
+    - 12
+    - 12
+  label: 第一節　法門大綱
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-4
+    span:
+    - body
+    - 195
+    - 195
+  label: 第二節　教說統攝
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-5
+    span:
+    - body
+    - 498
+    - 498
+  label: 第二章　歷史
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-6
+    span:
+    - body
+    - 503
+    - 503
+  label: 第一節　概說
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-7
+    span:
+    - body
+    - 744
+    - 744
+  label: 第二節　印度
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-8
+    span:
+    - body
+    - 1447
+    - 1447
+  label: 第三節　中國
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-9
+    span:
+    - body
+    - 1747
+    - 1747
+  label: 第四節　日本
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-10
+    span:
+    - body
+    - 2202
+    - 2202
+  label: 第三章　八宗概說
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-11
+    span:
+    - body
+    - 2413
+    - 2413
+  label: 本論上
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-12
+    span:
+    - body
+    - 2415
+    - 2415
+  label: 第一章　俱舍宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-13
+    span:
+    - body
+    - 2421
+    - 2421
+  label: 第一節　對法藏義
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-14
+    span:
+    - body
+    - 2653
+    - 2653
+  label: 第二節　造論緣起
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-15
+    span:
+    - body
+    - 3353
+    - 3353
+  label: 第三節　翻譯弘傳
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-16
+    span:
+    - body
+    - 3509
+    - 3509
+  label: 第四節　本論宗旨
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-17
+    span:
+    - body
+    - 3775
+    - 3775
+  label: 第五節　本論組織
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-18
+    span:
+    - body
+    - 3998
+    - 3998
+  label: 第六節　五位七十五法
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-19
+    span:
+    - body
+    - 4394
+    - 4394
+  label: 第七節　三乘因果
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-20
+    span:
+    - body
+    - 4529
+    - 4529
+  label: 第八節　我空法有
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-21
+    span:
+    - body
+    - 4614
+    - 4614
+  label: 第二章　成實宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-22
+    span:
+    - body
+    - 4620
+    - 4620
+  label: 第一節　成實名義
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-23
+    span:
+    - body
+    - 4692
+    - 4692
+  label: 第二節　造論譯傳
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-24
+    span:
+    - body
+    - 4801
+    - 4801
+  label: 第三節　系譜宗義
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-25
+    span:
+    - body
+    - 5087
+    - 5087
+  label: 第四節　賢聖階位
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-26
+    span:
+    - body
+    - 5312
+    - 5312
+  label: 第五節　八十四法
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-27
+    span:
+    - body
+    - 5389
+    - 5389
+  label: 第三章　律宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-28
+    span:
+    - body
+    - 5394
+    - 5394
+  label: 第一節　宗名諸律
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-29
+    span:
+    - body
+    - 5567
+    - 5567
+  label: 第二節　翻譯弘傳
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-30
+    span:
+    - body
+    - 5870
+    - 5870
+  label: 第三節　四分律傳統
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-31
+    span:
+    - body
+    - 6171
+    - 6171
+  label: 第四節　律宗相承
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-32
+    span:
+    - body
+    - 6412
+    - 6412
+  label: 第五節　律宗分流
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-33
+    span:
+    - body
+    - 6946
+    - 6946
+  label: 第六節　止持作持
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-34
+    span:
+    - body
+    - 7965
+    - 7965
+  label: 第七節　七眾建立
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0433_B_001-mulu-35
+    span:
+    - body
+    - 8486
+    - 8486
+  label: 第八節　判教宗致
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-juan-start
+    span:
+    - body
+    - 0
+    - 13718
+  label: 講本八宗綱要鈔下
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 本論下
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-2
+    span:
+    - body
+    - 0
+    - 0
+  label: 第四章　法相宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-3
+    span:
+    - body
+    - 6
+    - 6
+  label: 第一節　宗名所依經論
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-4
+    span:
+    - body
+    - 212
+    - 212
+  label: 第二節　三國相承
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-5
+    span:
+    - body
+    - 863
+    - 863
+  label: 第三節　教判
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-6
+    span:
+    - body
+    - 1307
+    - 1307
+  label: 第四節　三乘五性
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-7
+    span:
+    - body
+    - 2101
+    - 2101
+  label: 第五節　五位百法
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-8
+    span:
+    - body
+    - 2613
+    - 2613
+  label: 第六節　五重唯識
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-9
+    span:
+    - body
+    - 2729
+    - 2729
+  label: 第七節　四分
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-10
+    span:
+    - body
+    - 2948
+    - 2948
+  label: 第八節　三性三無性
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-11
+    span:
+    - body
+    - 3341
+    - 3341
+  label: 第九節　菩提涅槃
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-12
+    span:
+    - body
+    - 3782
+    - 3782
+  label: 第五章　三論宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-13
+    span:
+    - body
+    - 3788
+    - 3788
+  label: 第一節　宗名所依論
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-14
+    span:
+    - body
+    - 3990
+    - 3990
+  label: 第二節　破邪顯正
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-15
+    span:
+    - body
+    - 4358
+    - 4358
+  label: 第三節　真俗二諦
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-16
+    span:
+    - body
+    - 4584
+    - 4584
+  label: 第四節　佛果行位
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-17
+    span:
+    - body
+    - 4857
+    - 4857
+  label: 第五節　八不解釋
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-18
+    span:
+    - body
+    - 5016
+    - 5016
+  label: 第六節　二藏三轉法輪
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-19
+    span:
+    - body
+    - 5180
+    - 5180
+  label: 第七節　三國相承
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-20
+    span:
+    - body
+    - 5734
+    - 5734
+  label: 第六章　天台宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-21
+    span:
+    - body
+    - 5740
+    - 5740
+  label: 第一節　宗名所依經論
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-22
+    span:
+    - body
+    - 5873
+    - 5873
+  label: 第二節　相承系譜
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-23
+    span:
+    - body
+    - 6350
+    - 6350
+  label: 第三節　教判
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-24
+    span:
+    - body
+    - 8132
+    - 8132
+  label: 第四節　觀門行法
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-25
+    span:
+    - body
+    - 8254
+    - 8254
+  label: 第七章　華嚴宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-26
+    span:
+    - body
+    - 8260
+    - 8260
+  label: 第一節　宗名所依經
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-27
+    span:
+    - body
+    - 8480
+    - 8480
+  label: 第二節　三國相承
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-28
+    span:
+    - body
+    - 8872
+    - 8872
+  label: 第三節　教判
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-29
+    span:
+    - body
+    - 10040
+    - 10040
+  label: 第四節　五教行位
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-30
+    span:
+    - body
+    - 10298
+    - 10298
+  label: 第五節　佛身佛土
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-31
+    span:
+    - body
+    - 10567
+    - 10567
+  label: 第八章　真言宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-32
+    span:
+    - body
+    - 10573
+    - 10573
+  label: 第一節　宗名所依經
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-33
+    span:
+    - body
+    - 10612
+    - 10612
+  label: 第二節　三國相承
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-34
+    span:
+    - body
+    - 10880
+    - 10880
+  label: 第三節　教判
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-35
+    span:
+    - body
+    - 11087
+    - 11087
+  label: 第四節　依正二報
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-36
+    span:
+    - body
+    - 11303
+    - 11303
+  label: 第五節　六大．四曼．三密
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-37
+    span:
+    - body
+    - 11481
+    - 11481
+  label: 第六節　佛身教主
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-38
+    span:
+    - body
+    - 11720
+    - 11720
+  label: 附說　禪宗竝淨土宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-39
+    span:
+    - body
+    - 11728
+    - 11728
+  label: 第一章　禪宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-40
+    span:
+    - body
+    - 11942
+    - 11942
+  label: 第二章　淨土宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-41
+    span:
+    - body
+    - 12256
+    - 12256
+  label: 八宗綱要鈔解說
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-42
+    span:
+    - body
+    - 12263
+    - 12263
+  label: 一
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-43
+    span:
+    - body
+    - 12647
+    - 12647
+  label: 二
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6v0433_B_002-mulu-44
+    span:
+    - body
+    - 13074
+    - 13074
+  label: 三
+  type: mulu
+  level: 1
+hash: sha256:c5e0d10e700fe6eccca22d0cac1103f93688ee266b96d85c024acc635e280505
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
